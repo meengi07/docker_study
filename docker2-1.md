@@ -1,6 +1,9 @@
+![dockerLOGO](/image/dockerLOGO.png)
+
+
+
 # 2장 도커 엔진
 
-![dockerLOGO](/image/dockerLOGO.png)
 
 도커 엔진에서 사용하는 기본 단위는 이미지와 컨테이너 입니다.
 
