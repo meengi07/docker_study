@@ -1,6 +1,6 @@
 # 2장 도커 엔진
 
-![dockerLOGO.png](~@image/dockerLOGO.png)
+![dockerLOGO](/image/dockerLOGO.png)
 
 도커 엔진에서 사용하는 기본 단위는 이미지와 컨테이너 입니다.
 
@@ -62,7 +62,7 @@ docker run -i -t --name mywebserver -p 80:80 ubuntu:14.04
 
 호스트의 IP와 port를 컨테이너와 연결한다는 개념은 아주 중요합니다. 예를 들어 Apache web server는 172대역을 가진 컨테이너의 NAT IP와 80번 port로 서비스하므로 여기에 접근하려면 172.17.0.x:80 의 주소로 접근해야 합니다.
 
-![containerImg.png](~@image/containerImg.png)
+![containerImg](/image/containerImg.png)
 
 1. Host IP의 80번 포트로 접근
 2. 80번 포트는 컨테이너의 80번 포트로 포워딩
